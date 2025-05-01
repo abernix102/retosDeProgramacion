@@ -18,7 +18,7 @@ public class decimalABinario {
         while (entero > 0 ){
             int  resto = entero % 2;
             binario.insert(0, resto);
-            entero =entero / 2;
+            entero = entero / 2;
         }
         return  Integer.parseInt(binario.toString());
     }
