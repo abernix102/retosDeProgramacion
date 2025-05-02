@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class expressionesEquilibradas {
     public static void main(String[] args) {
-        String expresion = "{ [ a * ( c + d ) ] - 5 }";
+        String expresion = "{  a * ( c + d ) ] - 5 }";
         String valoresDeEntrada = expresion.replaceAll("\\s", "");
         char[] caracteres = valoresDeEntrada.toCharArray();
         System.out.println(verificacionEquilibrada(caracteres));
